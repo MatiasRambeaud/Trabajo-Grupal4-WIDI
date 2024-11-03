@@ -4,6 +4,7 @@
 }
 
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -94,6 +95,51 @@ menu li a img {
     position: relative;
 }
 
+.Contain {
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+    width: 40vw;
+    height: 20vh;
+}
+
+.Contain thead h1 {
+    text-align: center;
+    color: #333;
+}
+
+.imgP {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#Botón {
+    margin: 2px;
+    text-align: center;
+    border: solid 2px rgb(63, 64, 66);
+    position: absolute;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section .InfoPersonal {
+    background-color: #989595;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(23, 23, 23);
+}
+
+section article {
+    background-color: #989595;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(23, 22, 22);
+}
+
 footer {
     text-align: center;
     background-color: rgb(0, 0, 0);
@@ -103,4 +149,8 @@ footer {
     bottom: 0vh;
     width: 100%;
     box-sizing: border-box;
+}
+
+strong {
+    font-weight: bold;
 }
