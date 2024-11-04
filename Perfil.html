@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Liqui Moly - Perfil</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <menu>
+                <li>
+                    <a href="#"><img src="./img/liquimoli logo.png" alt="Liqui Moli logo"></a>
+                </li>
+                <li><a href="./catalogo_main.html">Catalogo</a></li>
+                <li>
+                    <a href="#carrito"><img src="./img/carritobebe.png" alt="Carrito bebe"></a>
+                </li>
+                <li>
+                    <a href="#perfil"><img src="./img/perfil.png" alt="Perfil"></a>
+                </li>
+            </menu>
+        </nav>
+    </header>
+    <div class="Contain">
+        <thead>
+            <h1>Perfil</h1>
+        </thead>
+        <div class="ImgP">
+            <img src="" alt="">
+        </div>
+        <section id="Información Personal:">
+            <h2>Información Personal:</h2>
+            <div class="InfoPersonal">
+                <label for="NomyApell"><strong>Nombre Y Apellido:</strong></label>
+                <input type="text" name="NyA" id="NomyApell" size="25"><br>
+                <label for="mail"><strong>Email:</strong></label>
+                <input type="email" name="Email" id="mail"><br>
+                <label for="Regi"><strong>Región:</strong></label>
+                <select name="Región" id="Regi">
+                <option value="Reg">'Región'</option>
+                <option value="A.S">América Norte</option>
+                <option value="A.N">América Sur</option>
+                <option value="Eur">Europa</option>
+                <option value="As">Asia</option>
+            </select><br>
+                <label for="Local"><strong>Localidad:</strong></label>
+                <input type="text" name="Loc" id="Local" size="30"><br>
+                <label for="Int"><strong>Intereses:</strong></label><br>
+                <label for="AceitA">*Aceites de Autos</label>
+                <input type="checkbox" name="Ace" id="AceitA" value="Aceites de Autos" checked>
+                <label for="AceitM">*Aceites de Motos</label>
+                <input type="checkbox" name="Ace" id="AceitM" value="Aceites de Motos">
+            </div>
+
+            <article>
+                <h3>Nuestros Servicios</h3>
+                <label for="Prod">¿Conoce nuestros productos?</label>
+                <label for="Si">Si</label>
+                <input type="radio" name="Confirmación" id="Si">
+                <label for="No">No</label>
+                <input type="radio" name="Confir" id="No">
+                <p>Si su respuesta fue 'No': </p>
+                <div id="Botón">
+                    <a href="./catalogo_main.html"> <strong>*click aqui*</strong> </a><br>
+                </div>
+                <br><br>
+                <label for="Opin"><strong>Opinión:</strong></label><br>
+                <textarea name="Opinión" id="Opin" cols="30" rows="4"></textarea>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <p>contacto: 299 583-4567 direccion: calle falsa 123</p>
+    </footer>
+</body>
+
+</html>
