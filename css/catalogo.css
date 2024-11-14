@@ -1,0 +1,76 @@
+.contenedor-catalogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-left: 15vw;
+    width: 70%;
+    height: 70vh;
+}
+
+.aceite-auto,
+.aceite-moto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 45%;
+    height: 100%;
+    border-radius: 1.5%;
+    background-color: rgb(183, 221, 255);
+    box-shadow: 0px 3px 10px #333 inset;
+}
+
+.aceite {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 20%;
+    background-color: rgba(14, 21, 21, 0.662);
+    border-radius: 2%;
+    box-shadow: 6px 5px 10px #333;
+    transition: 350ms ease;
+}
+
+.aceite:hover {
+    width: 65%;
+    height: 25%;
+    box-shadow: 9px 8px 10px #434343;
+}
+
+.specs {
+    width: 60%;
+    height: 80%;
+    margin: 3%;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.165);
+}
+
+.modelo {
+    color: azure;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.precio {
+    color: olivedrab;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.aceite-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    object-fit: contain;
+}
+
+.aceite-imagen img {
+    max-height: 100%;
+    max-width: 100%;
+}
