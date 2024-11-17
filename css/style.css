@@ -3,9 +3,6 @@
     }
     
     body {
-        background-image: (url(../img/fondos/FondoLiquiMoly.png));
-        background-size: cover;
-        background-position: center;
         font-family: Arial, sans-serif;
         display: flex;
         flex-direction: column;
@@ -13,6 +10,10 @@
         padding: 0;
         min-height: 100vh;
         box-sizing: border-box;
+        background-image: url(../img/fondos/FondoLiquiMoly.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
     
     header {
@@ -49,6 +50,7 @@
         background-color: rgba(253, 105, 105, 10%);
         font-size: 25px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
         transition: 200ms ease;
     }
     
@@ -69,6 +71,10 @@
         color: white;
         padding: 20px;
         margin-top: auto;
+    }
+    
+    footer p {
+        font-weight: bold;
     }
     
     strong {

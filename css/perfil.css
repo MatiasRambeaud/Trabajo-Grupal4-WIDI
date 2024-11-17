@@ -26,18 +26,17 @@ thead h1 {
 .FlexContainer {
     display: flex;
     border: 1px solid #333;
-    background: rgb(54, 54, 48);
     width: 95%;
     height: 80%;
     padding: 20px;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
+    border: none;
 }
 
 .Caja1 {
-    border: 1px solid rgb(103, 81, 40);
-    background-color: white;
+    border: none;
     width: 30%;
     height: 33%;
     text-align: center;
@@ -45,7 +44,7 @@ thead h1 {
 }
 
 .Caja2 {
-    border: 1px solid rgb(103, 81, 40);
+    border: 3px solid rgb(44, 41, 36);
     background-color: white;
     width: 35%;
     max-height: 60vh;
@@ -53,10 +52,17 @@ thead h1 {
     text-align: center;
     line-height: 40px;
     margin: 5px;
+    box-shadow: 2px 4px 7px rgb(78, 78, 80) inset;
+}
+
+.Boton {
+    width: 100%;
+    border: none;
+    margin: 14px 0;
+    font-size: 20px;
 }
 
 .Caja3 {
-    border: 1px solid rgb(103, 81, 40);
     background-color: white;
     width: 30%;
     height: 60%;
